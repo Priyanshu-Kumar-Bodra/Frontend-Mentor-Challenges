@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front End Mentor challenges</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+
+    .top-banner {
+      background-color: rgb(0, 149, 255);
+      text-align: center;
+      font-size: 40px;
+      padding: 30px;
+      color: white;
+    }
+
+    .challenge-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin: 20px;
+    }
+
+    .challenge {
+      display: grid;
+      grid-template-rows: 300px 80px 50px;
+      width: 300px;
+      border: 1px solid rgb(199, 199, 199);
+      border-radius: 15px;
+    }
+
+    .img-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .challenge-img {
+      width: 150%;
+      height: 150%;
+      object-fit: cover;
+    }
+
+    .challenge-name {
+      font-size: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .challenge-tools {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+    }
+
+    .tool-html{
+      color: rgb(0, 76, 255);
+    }
+
+    .tool-css {
+      color: rgb(255, 157, 0);
+    }
+
+    .difficulty {
+      color: rgb(0, 200, 255);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="top-banner">
+    <b>My Frontend Mentor challenges</b>
+  </div>
+
+  <div class="challenge-grid">
+    <div class="challenge">
+      <div class="img-container">
+        <img src="./QRcode-component/design/desktop-design.jpg" class="challenge-img">
+      </div>
+      <div class="challenge-name">
+        <a href="./QRcode-component/index.html">
+          QR code component
+        </a>
+      </div>
+      <div class="challenge-tools">
+        <div>
+          <span class="tool-html">HTML</span>
+          <span class="tool-css">CSS</span>
+        </div>
+        <div>
+          <span class="difficulty">Newbie</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+</html>
